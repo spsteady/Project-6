@@ -95,6 +95,8 @@ button {
 .show {
   color: #000;
   background-color: #76CE82;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in;
 }
 
 /* Keyboard */
@@ -114,9 +116,11 @@ button {
 .btn__reset {
   padding: 8px;
   margin: 50px auto;
-  background: #FFFFFF;
+  background: #c3e6d3;
   border-radius: 5px;
   font-size: var(--font-size-medium);
+  
+  cursor: pointer;
 }
 
 /* Overlay */
